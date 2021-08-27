@@ -61,7 +61,7 @@ function App() {
   ]
   
   return (
-    <div className="App container">
+    <div className="App container p-2">
      
       <div className="d-flex justify-content-center">
       <form onSubmit={(event) => addItem(event)}>
