@@ -104,7 +104,7 @@ function App() {
             <td>{data.name.label}</td>
             <td>{data.time}</td>
             <td>{data.startOrEnd.label}</td>
-            <td><button type="button" className="btn-close" aria-label="Close" onClick={() => dispatch({type: 'DELETE_DATA', id:data.id})}></button></td>
+            <td><button type="button" className="btn-close btn-close-white" aria-label="Close" onClick={() => dispatch({type: 'DELETE_DATA', id:data.id})}></button></td>
           </tr>
           ))}
         </tbody>
