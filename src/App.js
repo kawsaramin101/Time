@@ -89,7 +89,7 @@ function App() {
         <br/>
         <br/>
         <div className="d-grid gap-2 col-6 mx-auto">
-          <input type="submit" value="Add" />
+          <input class="btn btn-outline-light" type="submit" value="Add" />
         </div>
       </form>
       </div>
